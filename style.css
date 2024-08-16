@@ -1,0 +1,89 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2); /* Gradient background */
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styles */
+h1, h2, h3 {
+    color: #00796b; /* Darker shade of teal for headers */
+}
+
+/* Button Styles */
+.stButton>button {
+    background-color: #00796b; /* Teal background */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #004d40; /* Darker teal */
+}
+
+/* Text Input Styles */
+.stTextInput>div>input {
+    border-radius: 8px;
+    border: 1px solid #00796b;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+.stTextInput>div>input:focus {
+    border-color: #004d40; /* Darker teal on focus */
+    outline: none;
+}
+
+/* Video Styles */
+.stVideo {
+    margin-top: 20px;
+    border: 2px solid #00796b; /* Border around the video */
+    border-radius: 8px;
+}
+
+/* Header Styles */
+.stHeader {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+.stForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #ffffff; /* White background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Notification Styles */
+.stWarning, .stSuccess, .stError {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.stWarning {
+    background-color: #fbc02d; /* Warning yellow */
+}
+
+.stSuccess {
+    background-color: #4caf50; /* Success green */
+}
+
+.stError {
+    background-color: #e53935; /* Error red */
+}
